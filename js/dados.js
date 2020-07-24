@@ -1,10 +1,10 @@
 function validaLogin() {
     //alert("chamou");
-    let userTxt = localStorage.getItem("userLogged");
+    // let userTxt = localStorage.getItem("userLogged");
 
-    if (!userTxt) {
-        window.location = "index.html";
-    }
+    // if (!userTxt) {
+    //     window.location = "index.html";
+    // }
 
     let user = JSON.parse(userTxt);
 
